@@ -1,0 +1,52 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000000;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-bottom: 20px;
+  }
+  
+  .answer-display {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    white-space: pre-wrap;
+    text-align: left;
+  }
+  
+  .preview img{
+    border-radius: 50px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .preview:hover{
+    transform: scale(0.9);
+  }
+  
+  .preview h2{
+    color: beige;
+  }
